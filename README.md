@@ -1,7 +1,7 @@
 # Genetic-Algorithm-Neural-Network-Toolkit
 Genetic Algorithm and Neural Network Toolkit for Reinforcement Learning applications
 
-The **GA-NN** toolkit was designed to facilitate the implementation of **neural networks** on aplications by optimizing the weights of the neural networks using a **genetic algorithm** approach. 
+The **GA-NN** toolkit was designed to facilitate the implementation of **neural networks** on aplications by optimizing the weights of the neural network using a **genetic algorithm** approach. 
 
 ## Requirements:
 * [Matplotlib](https://matplotlib.org/)
