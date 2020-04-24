@@ -34,4 +34,4 @@ The following results were achieved with a population size of 10 and a neural ne
 
 ### Results with different hyperparameters
 
-<img src="media/Figure_1.png"> <img src="media/Figure_2.png">
+<img src="media/Figure_1.png" width=400> <img src="media/Figure_2.png" width=400>
