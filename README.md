@@ -15,8 +15,8 @@ Another approach for finding the optimal weights in a neural network for a certa
 ## OpenAI Gym:
 The **GA-NN** toolkit was tested on a few environments provided by **OpenAI gym**. Below are examples of the toolkit being used on the cart pole environment, where the objective is to balance a pole on a cart without letting the pole tip over. The toolkit allows the user to input certain hyper parameters such as:
 * **The architecture of the neural network** e.g [2,4,1] would correspond to a neural network with two inputs a hidden layer with 4 neurons and a single output
-* **Best percentage** the number of top agents chosen fr next generation
-* **Mutation factor** the amount by which the next generation will resemble the previous generation
+* **Best percentage:** the number of top agents chosen for next generation
+* **Mutation factor:** the amount by which the next generation will resemble the previous generation
 
 The following results were achieved with a population size of 10 and a neural network with architecture [4,4,4,1]
 
