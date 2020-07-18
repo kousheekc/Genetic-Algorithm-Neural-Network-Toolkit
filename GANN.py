@@ -105,14 +105,14 @@ class GANN:
     def reset(self):
         self.rewards = np.zeros((self.size))
 
-    # various action functions for NN
+    # various activation functions for NN
     def sigmoid(self, x):
         return 1/(1 + np.exp(-x))
 
     def tanh(self, x):
         return np.tanh(x) 
 
-    # plot progree of best score and mean score for each generation
+    # plot progress of best score and mean score for each generation
     def evolution(self):
         plt.xlabel('generations') 
         plt.ylabel('score')
