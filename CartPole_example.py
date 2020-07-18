@@ -17,7 +17,7 @@ for generation in range(GENERATIONS):
     for i in range(POPULATION):
         obs = env.reset()
         for _ in range(400):    #400 time steps
-            action = a.forwardPropagate(obs, i)     #figure out action by forward prpagating inputs through NN
+            action = a.forwardPropagate(obs, i)     #figure out action by forward propagating inputs through NN
 
             if action > 0.5:
                 action = 1
